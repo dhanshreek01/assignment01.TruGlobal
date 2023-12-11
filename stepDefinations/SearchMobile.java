@@ -4,8 +4,6 @@ import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
 import assignment01.pageObject.ApplyFilters;
 import assignment01.pageObject.BasePage;
 import assignment01.pageObject.CartPage;
@@ -67,10 +65,10 @@ public class SearchMobile {
 	public void User_verifies_the_product_stores_the_price_And_procced_to_checkout() {
 
 		cart = new CartPage(driver);
-//		
-//		String actulProName=
-//		driver.findElement(By.xpath("//li[contains(@class,'a-spacing-mini sc-item-product-title-cont')]")).getText();
-//	    assertEquals(actulProName, cart.getProdTitle());
+		
+		String actulProName=
+		driver.findElement(By.xpath("//li[contains(@class,'a-spacing-mini sc-item-product-title-cont')]")).getText();
+        assertEquals(actulProName, cart.getProdTitle());
 	    
 		System.out.println("price in variable >> 7");
 		cart.getFinalPrice();

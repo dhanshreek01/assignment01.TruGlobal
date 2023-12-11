@@ -32,8 +32,6 @@ public class SearchPage extends BasePage {
 		scrollDown.executeScript("window.scrollBy(0,400)");	
 		wait.until(ExpectedConditions.elementToBeClickable(selectIphone));
 		selectIphone.click();
-	
-		
 		
 	}
 }

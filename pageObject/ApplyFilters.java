@@ -1,6 +1,5 @@
 package assignment01.pageObject;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.util.List;
