@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		          features=".//Feature",
 		          glue= {"assignment01/stepDefinations","assignment01/hooks"},
-		          tags = "@iphoneTest",
+		          tags = "@iphoneTest or @FilterTest ",
 		          plugin = {
 		        		     "pretty",
 		        		     "html:reports/cucumber-reports"
